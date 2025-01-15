@@ -1,0 +1,41 @@
+
+
+#gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+figcaption,footer,p{
+    color: #00303F;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+figcaption a{
+color: #00303F;
+text-decoration: none;
+}
+figure{
+    padding: 6px;
+    border-width: 50px;
+    border: 2px solid #E0E0FF; 
+    border-radius: 1%;
+    width: 300px;
+    margin: auto;
+    box-sizing: border-box;
+    animation: alternate;
+
+}
+body{
+    background-color: #E0E0FF;
+
+}
+figure img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+h1{
+    color: #00303F;
+}
+main{
+    flex-flow: row;
+    flex-direction: row;
+}
